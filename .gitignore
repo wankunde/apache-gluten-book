@@ -41,3 +41,4 @@ dist/
 # Personal notes (optional)
 notes/
 drafts/
+.venv/
