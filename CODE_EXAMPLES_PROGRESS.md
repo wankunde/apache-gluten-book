@@ -43,14 +43,91 @@
   - 自动化内存泄漏检测
   - 给出具体配置建议
 
+#### OffHeapDemo.scala
+- **文件**: `code-examples/scala/OffHeapDemo.scala`
+- **行数**: 370行
+- **功能**:
+  - 对比 On-Heap vs Off-Heap 内存性能
+  - 测试不同 Off-Heap 大小的影响
+  - 可扩展性测试
+  - 配置建议和最佳实践
+- **亮点**: 
+  - 3种配置自动对比
+  - 内存溢出场景模拟
+  - 详细配置指南
+
+### 3. Fallback 机制（第9章）
+
+#### FallbackDetection.scala
+- **文件**: `code-examples/scala/FallbackDetection.scala`
+- **行数**: 362行
+- **功能**:
+  - 自动检测查询中的 Fallback
+  - 统计 C2R/R2C 转换
+  - 分析 Fallback 原因
+  - 提供优化建议
+  - 导出 JSON 报告
+- **亮点**: 
+  - 自动分类 Fallback 原因
+  - 按严重程度排序
+  - 可复用的检测工具
+
+#### fallback_analysis.py
+- **文件**: `code-examples/python/fallback_analysis.py`
+- **行数**: 460行
+- **功能**:
+  - 解析 Spark 日志和执行计划
+  - 智能分类 Fallback 原因
+  - 生成文本/JSON/HTML 报告
+  - 统计分析和可视化
+- **亮点**: 
+  - 支持3种报告格式
+  - 正则模式匹配
+  - 优先级评估
+
+### 4. 后端配置（第11-13章）
+
+#### velox-config.conf
+- **文件**: `code-examples/configs/velox-config.conf`
+- **行数**: 205行
+- **功能**:
+  - Velox 后端完整配置模板
+  - 12个配置分类
+  - 详细参数说明
+  - 不同规模集群建议
+- **亮点**: 开箱即用的生产级配置
+
+#### clickhouse-config.conf
+- **文件**: `code-examples/configs/clickhouse-config.conf`
+- **行数**: 156行
+- **功能**:
+  - ClickHouse 后端完整配置
+  - 运行时设置优化
+  - 性能调优参数
+  - 使用场景建议
+- **亮点**: 对比 Velox 的差异说明
+
+#### switch-backend.sh
+- **文件**: `code-examples/shell/switch-backend.sh`
+- **行数**: 280行
+- **功能**:
+  - 一键切换 Velox/ClickHouse 后端
+  - 自动备份和恢复配置
+  - 状态检查
+  - 配置验证
+- **亮点**: 
+  - 彩色交互界面
+  - 配置版本管理
+  - 防误操作保护
+
 ## 📊 当前统计
 
 | 指标 | 数值 |
 |------|------|
-| 已完成文件 | 3 |
-| 总代码行数 | ~1,095 行 |
-| Phase 1 进度 | 17.6% (3/17) |
-| 整体进度 | 5.7% (3/53) |
+| 已完成文件 | 9 |
+| 总代码行数 | ~3,300+ 行 |
+| Phase 1 进度 | 52.9% (9/17) |
+| 整体进度 | 20.5% (9/44) |
 
 ## 📝 剩余任务 (Phase 1)
 
