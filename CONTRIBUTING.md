@@ -8,7 +8,7 @@
 
 如果你发现书中的错误（如拼写错误、技术错误、代码问题等），或者有改进建议，请：
 
-1. 在 GitHub 上[创建一个 Issue](https://github.com/YOUR_USERNAME/apache-gluten-book/issues/new)
+1. 在 GitHub 上[创建一个 Issue](https://github.com/wankunde/apache-gluten-book/issues/new)
 2. 清楚地描述问题或建议
 3. 如果是技术错误，请提供相关的章节和行号
 
@@ -32,7 +32,7 @@
 
 2. **克隆你的 Fork**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/apache-gluten-book.git
+   git clone https://github.com/wankunde/apache-gluten-book.git
    cd apache-gluten-book
    ```
 
@@ -193,8 +193,8 @@
 
 如果你有任何问题：
 
-1. 查看现有的 [Issues](https://github.com/YOUR_USERNAME/apache-gluten-book/issues)
-2. 查看 [Discussions](https://github.com/YOUR_USERNAME/apache-gluten-book/discussions)
+1. 查看现有的 [Issues](https://github.com/wankunde/apache-gluten-book/issues)
+2. 查看 [Discussions](https://github.com/wankunde/apache-gluten-book/discussions)
 3. 创建新的 Issue 或 Discussion
 4. 发送邮件至：[your-email@example.com]
 

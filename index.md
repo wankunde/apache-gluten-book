@@ -77,9 +77,9 @@
 
 本书是开源的，欢迎任何形式的贡献！
 
-- 发现错误？[提交 Issue](https://github.com/YOUR_USERNAME/apache-gluten-book/issues)
+- 发现错误？[提交 Issue](https://github.com/wankunde/apache-gluten-book/issues)
 - 想要贡献内容？查看 [贡献指南](CONTRIBUTING.md)
-- 有问题或建议？在 [Discussions](https://github.com/YOUR_USERNAME/apache-gluten-book/discussions) 中讨论
+- 有问题或建议？在 [Discussions](https://github.com/wankunde/apache-gluten-book/discussions) 中讨论
 
 ## 📚 相关资源
 
