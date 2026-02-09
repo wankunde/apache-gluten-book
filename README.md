@@ -92,12 +92,45 @@ mkdocs serve
 
 ## 📝 代码示例
 
-本书包含丰富的代码示例，位于 `code-examples/` 目录：
+本书包含丰富的**生产级代码示例**，位于 `code-examples/` 目录：
 
-- **Scala 示例**: [code-examples/scala/](code-examples/scala/)
-- **Python 示例**: [code-examples/python/](code-examples/python/)
-- **Shell 脚本**: [code-examples/shell/](code-examples/shell/)
-- **配置文件**: [code-examples/configs/](code-examples/configs/)
+### 📊 统计概览
+- **总文件数**: 24 个（16 个新增核心工具 + 8 个原有示例）
+- **代码行数**: ~6,000 行
+- **覆盖章节**: 第2-13章
+- **质量等级**: 生产级（完整注释、错误处理、使用文档）
+
+### 🎯 核心工具亮点
+
+#### 性能分析工具
+- **PlanTransformationDemo.scala** - 执行计划对比分析
+- **MemoryMonitoring.scala** - 内存监控和泄漏检测
+- **ColumnarShuffleDemo.scala** - Shuffle 性能对比
+
+#### 问题诊断工具
+- **FallbackDetection.scala** - 自动 Fallback 检测
+- **fallback_analysis.py** - Fallback 原因分析和报告生成
+
+#### 后端对比工具
+- **backend_comparison.py** - Velox vs ClickHouse 自动化测试
+- **switch-backend.sh** - 一键后端切换脚本
+
+#### 配置模板
+- **velox-config.conf** - Velox 完整配置（205行）
+- **clickhouse-config.conf** - ClickHouse 完整配置（156行）
+
+#### 开发示例
+- **velox_udf_example.cpp** - Velox Native UDF 开发
+- **shuffle_compression_benchmark.py** - 压缩算法基准测试
+
+📖 **完整列表和使用说明**: [code-examples/README.md](code-examples/README.md)
+
+### 按语言分类
+- **Scala**: [code-examples/scala/](code-examples/scala/) - 9 个文件，3,100+ 行
+- **Python**: [code-examples/python/](code-examples/python/) - 7 个文件，2,200+ 行
+- **Shell**: [code-examples/shell/](code-examples/shell/) - 3 个文件，440 行
+- **Config**: [code-examples/configs/](code-examples/configs/) - 4 个文件，480 行
+- **C++**: [code-examples/cpp/](code-examples/cpp/) - 1 个文件，51 行
 
 ## 🤝 贡献指南
 
