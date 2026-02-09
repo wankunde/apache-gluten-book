@@ -43,21 +43,56 @@
 
 深入理解 Gluten 的核心架构和机制。
 
-### [第三部分：后端引擎篇](chapters/part3-backend-engines/chapter11-velox-backend.md)
+- [第4章：整体架构](chapters/part2-architecture/chapter04-overall-architecture.md) - Gluten 的总体架构设计
+- [第5章：查询计划转换](chapters/part2-architecture/chapter05-query-plan-transformation.md) - Spark Plan 到 Substrait Plan 的转换
+- [第6章：内存管理](chapters/part2-architecture/chapter06-memory-management.md) - 内存分配、监控和优化
+- [第7章：数据格式与传输](chapters/part2-architecture/chapter07-data-format-and-transfer.md) - 列式格式和数据传输机制
+- [第8章：Columnar Shuffle](chapters/part2-architecture/chapter08-columnar-shuffle.md) - 高效的列式数据交换
+- [第9章：Fallback 机制](chapters/part2-architecture/chapter09-fallback-mechanism.md) - 自动回退和兼容性保证
+- [第10章：Shim 层设计](chapters/part2-architecture/chapter10-shim-layer.md) - 多 Spark 版本适配
+
+### [第三部分：后端引擎篇](chapters/part3-backends/chapter11-velox-backend.md)
 
 详解 Velox 和 ClickHouse 两大后端引擎。
 
-### [第四部分：源码剖析篇](chapters/part4-source-code/chapter14-dev-environment.md)
+- [第11章：Velox 后端](chapters/part3-backends/chapter11-velox-backend.md) - Velox 执行引擎详解
+- [第12章：ClickHouse 后端](chapters/part3-backends/chapter12-clickhouse-backend.md) - ClickHouse 执行引擎详解
+- [第13章：后端对比与选择](chapters/part3-backends/chapter13-backend-comparison.md) - 两大后端的优劣分析
+
+### [第四部分：源码剖析篇](chapters/part4-source-code/chapter14-dev-environment-setup.md)
 
 源码分析和扩展开发指南。
+
+- [第14章：开发环境搭建](chapters/part4-source-code/chapter14-dev-environment-setup.md) - 构建开发环境
+- [第15章：核心模块分析](chapters/part4-source-code/chapter15-core-modules-analysis.md) - 源码结构和核心模块
+- [第16章：算子实现剖析](chapters/part4-source-code/chapter16-operator-implementation.md) - 算子实现原理
+- [第17章：扩展开发指南](chapters/part4-source-code/chapter17-extension-development.md) - UDF、自定义算子开发
+- [第18章：测试与质量保证](chapters/part4-source-code/chapter18-testing-quality.md) - 单元测试、集成测试
+- [第19章：性能优化技术](chapters/part4-source-code/chapter19-performance-tuning.md) - 深度性能优化
 
 ### [第五部分：实战篇](chapters/part5-practice/chapter20-production-deployment.md)
 
 生产环境部署和真实案例分析。
 
+- [第20章：生产环境部署](chapters/part5-practice/chapter20-production-deployment.md) - 部署架构和最佳实践
+- [第21章：真实案例分析](chapters/part5-practice/chapter21-case-studies.md) - 企业级应用案例
+- [第22章：故障排查与调优](chapters/part5-practice/chapter22-troubleshooting.md) - 常见问题和解决方案
+
 ### [第六部分：社区与未来](chapters/part6-community/chapter23-community-participation.md)
 
 参与社区和了解 Gluten 的未来发展。
+
+- [第23章：社区参与](chapters/part6-community/chapter23-community-participation.md) - 如何参与 Gluten 社区
+- [第24章：Gluten 的未来](chapters/part6-community/chapter24-future-of-gluten.md) - 发展路线图和新特性
+
+### [附录](appendices/appendix-a-glossary.md)
+
+快速参考资料和术语表。
+
+- [附录A：术语表](appendices/appendix-a-glossary.md) - 核心术语和概念
+- [附录B：配置参数](appendices/appendix-b-configuration-parameters.md) - 完整配置参数参考
+- [附录C：API 参考](appendices/appendix-c-api-reference.md) - 扩展 API 文档
+- [附录D：常见问题](appendices/appendix-d-faq.md) - FAQ 和疑难解答
 
 ## 💡 如何阅读本书
 
