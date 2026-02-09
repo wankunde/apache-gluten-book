@@ -7,7 +7,7 @@
 > 一本从入门到精通的 Apache Gluten 中文指南
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![GitHub Stars](https://img.shields.io/github/stars/YOUR_USERNAME/apache-gluten-book?style=social)](https://github.com/YOUR_USERNAME/apache-gluten-book)
+[![GitHub Stars](https://img.shields.io/github/stars/wankunde/apache-gluten-book?style=social)](https://github.com/wankunde/apache-gluten-book)
 
 ## 📖 关于本书
 
@@ -71,14 +71,14 @@ Apache Gluten 是一个革命性的项目，它通过将 Spark SQL 的执行卸�
 
 ### 在线阅读
 
-- **GitHub Pages**: [https://YOUR_USERNAME.github.io/apache-gluten-book](https://YOUR_USERNAME.github.io/apache-gluten-book)
+- **GitHub Pages**: [https://wankunde.github.io/apache-gluten-book](https://wankunde.github.io/apache-gluten-book)
 - **Google Docs**: [链接待添加]
 
 ### 本地阅读
 
 ```bash
 # 克隆仓库
-git clone https://github.com/YOUR_USERNAME/apache-gluten-book.git
+git clone https://github.com/wankunde/apache-gluten-book.git
 cd apache-gluten-book
 
 # 使用 Markdown 阅读器查看
@@ -112,8 +112,8 @@ mkdocs serve
 
 感谢所有为本书做出贡献的人！
 
-<a href="https://github.com/YOUR_USERNAME/apache-gluten-book/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=YOUR_USERNAME/apache-gluten-book" />
+<a href="https://github.com/wankunde/apache-gluten-book/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=wankunde/apache-gluten-book" />
 </a>
 
 ## 📄 许可证
@@ -146,14 +146,14 @@ mkdocs serve
 
 如有任何问题或建议，欢迎通过以下方式联系：
 
-- 提交 [GitHub Issue](https://github.com/YOUR_USERNAME/apache-gluten-book/issues)
-- 发送邮件至：[your-email@example.com]
+- 提交 [GitHub Issue](https://github.com/wankunde/apache-gluten-book/issues)
+- 发送邮件至：[wankunde@163.com]
 
 ## ⭐ Star History
 
 如果本书对你有帮助，请给我们一个 Star！
 
-[![Star History Chart](https://api.star-history.com/svg?repos=YOUR_USERNAME/apache-gluten-book&type=Date)](https://star-history.com/#YOUR_USERNAME/apache-gluten-book&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=wankunde/apache-gluten-book&type=Date)](https://star-history.com/#wankunde/apache-gluten-book&Date)
 
 ## 📊 进度
 

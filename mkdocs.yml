@@ -1,10 +1,10 @@
 site_name: Apache Gluten 深入浅出
 site_description: 一本从入门到精通的 Apache Gluten 中文指南
 site_author: Apache Gluten Community
-site_url: https://YOUR_USERNAME.github.io/apache-gluten-book
+site_url: https://wankunde.github.io/apache-gluten-book
 
-repo_name: YOUR_USERNAME/apache-gluten-book
-repo_url: https://github.com/YOUR_USERNAME/apache-gluten-book
+repo_name: wankunde/apache-gluten-book
+repo_url: https://github.com/wankunde/apache-gluten-book
 edit_uri: edit/main/
 
 theme:
@@ -108,8 +108,8 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/YOUR_USERNAME/apache-gluten-book
+      link: https://github.com/wankunde/apache-gluten-book
     - icon: fontawesome/solid/paper-plane
-      link: mailto:your-email@example.com
+      link: mailto:wankunde@163.com
 
 copyright: Copyright &copy; 2024 Apache Gluten Community. Licensed under CC BY-NC-SA 4.0
