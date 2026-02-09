@@ -1,0 +1,115 @@
+site_name: Apache Gluten 深入浅出
+site_description: 一本从入门到精通的 Apache Gluten 中文指南
+site_author: Apache Gluten Community
+site_url: https://YOUR_USERNAME.github.io/apache-gluten-book
+
+repo_name: YOUR_USERNAME/apache-gluten-book
+repo_url: https://github.com/YOUR_USERNAME/apache-gluten-book
+edit_uri: edit/main/
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+  - git-revision-date-localized:
+      enable_creation_date: true
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+nav:
+  - 首页: index.md
+  - 第一部分 入门篇:
+    - 第1章 Gluten 简介: chapters/part1-beginner/chapter01-introduction.md
+    - 第2章 快速入门: chapters/part1-beginner/chapter02-quick-start.md
+    - 第3章 Gluten 使用指南: chapters/part1-beginner/chapter03-usage-guide.md
+  - 第二部分 架构篇:
+    - 第4章 Gluten 整体架构: chapters/part2-architecture/chapter04-overall-architecture.md
+    - 第5章 查询计划转换: chapters/part2-architecture/chapter05-query-plan-transformation.md
+    - 第6章 内存管理: chapters/part2-architecture/chapter06-memory-management.md
+    - 第7章 数据格式与传输: chapters/part2-architecture/chapter07-data-format-and-transfer.md
+    - 第8章 Columnar Shuffle: chapters/part2-architecture/chapter08-columnar-shuffle.md
+    - 第9章 Fallback 机制深入: chapters/part2-architecture/chapter09-fallback-mechanism.md
+    - 第10章 多版本兼容: chapters/part2-architecture/chapter10-shim-layer.md
+  - 第三部分 后端引擎篇:
+    - 第11章 Velox 后端详解: chapters/part3-backend-engines/chapter11-velox-backend.md
+    - 第12章 ClickHouse 后端详解: chapters/part3-backend-engines/chapter12-clickhouse-backend.md
+    - 第13章 后端对比与选择: chapters/part3-backend-engines/chapter13-backend-comparison.md
+  - 第四部分 源码剖析篇:
+    - 第14章 源码环境搭建: chapters/part4-source-code/chapter14-dev-environment.md
+    - 第15章 核心模块源码分析: chapters/part4-source-code/chapter15-core-modules.md
+    - 第16章 算子实现剖析: chapters/part4-source-code/chapter16-operator-implementation.md
+    - 第17章 扩展开发: chapters/part4-source-code/chapter17-extension-development.md
+    - 第18章 测试与质量保证: chapters/part4-source-code/chapter18-testing.md
+    - 第19章 性能分析与调优: chapters/part4-source-code/chapter19-performance-tuning.md
+  - 第五部分 实战篇:
+    - 第20章 生产环境部署: chapters/part5-practice/chapter20-production-deployment.md
+    - 第21章 真实案例分析: chapters/part5-practice/chapter21-real-world-cases.md
+    - 第22章 故障排查实战: chapters/part5-practice/chapter22-troubleshooting.md
+  - 第六部分 社区与未来:
+    - 第23章 社区参与: chapters/part6-community/chapter23-community-participation.md
+    - 第24章 Gluten 的未来: chapters/part6-community/chapter24-future-of-gluten.md
+  - 附录:
+    - 附录A 配置参数速查表: appendices/appendix-a-configuration-reference.md
+    - 附录B 函数支持列表: appendices/appendix-b-function-support.md
+    - 附录C 术语表: appendices/appendix-c-glossary.md
+    - 附录D 参考资源: appendices/appendix-d-references.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/YOUR_USERNAME/apache-gluten-book
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:your-email@example.com
+
+copyright: Copyright &copy; 2024 Apache Gluten Community. Licensed under CC BY-NC-SA 4.0
